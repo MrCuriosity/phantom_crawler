@@ -1,0 +1,16 @@
+{
+    "appenders": [{
+        "type": "console",
+        "category": "console"
+    }, {
+        "type": "dateFile",
+        "filename": "/Users/wangchao/sudiyi/crawler/new_oneapm_phantom/conclusion_logs/",
+        "pattern": "conclusion_yyyy_MM_dd.log",
+        "alwaysIncludePattern": true,
+        "category": "conclusion"
+    }],
+    "replaceConsole": true,
+    "levels": {
+        "agents_logger": "ALL"
+    }
+}
